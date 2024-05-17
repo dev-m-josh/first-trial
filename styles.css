@@ -1,0 +1,60 @@
+@import url(https://fonts.google.com/specimen/Karla);
+*{
+    font-family: "Karla", sans-serif;
+    box-sizing: border-box;
+}
+p{
+    font-size: 16px;
+    
+}
+body{
+    background-color:  hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    color: hsl(204, 43%, 93%);
+    padding: 10px;
+    border-radius: 10px;
+    border-color: hsl(71, 73%, 54%);
+}
+em{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 40%;
+    line-height: 25px;
+}
+
+.join{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    grid-column: 1 / 3;
+}
+.monthly{
+    background-color:  hsl(179, 62%, 43%);
+    padding: 20px;
+    border-radius: 0 0 0 10px;
+}
+.why{
+    background-color:  hsl(180, 52%, 62%);
+    border-radius: 0 0 10px 0;
+    padding: 20px;
+}
+.monthly>p{
+    color:  hsl(204, 43%, 93%);
+}
+.why>p{
+    color:  hsl(204, 43%, 93%);
+    
+}
